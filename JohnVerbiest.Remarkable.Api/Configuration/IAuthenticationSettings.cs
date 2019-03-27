@@ -3,7 +3,8 @@
     internal interface IAuthenticationSettings
     {
         string CodeGenerationUrl { get; }
-        string TokenEndpoint { get; }
+        string NewTokenEndpoint { get; }
+        string RefreshTokenEndpoint { get; }
         string DeviceDesc { get; }
     }
 }

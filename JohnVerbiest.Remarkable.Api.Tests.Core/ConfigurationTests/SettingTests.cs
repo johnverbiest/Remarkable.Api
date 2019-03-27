@@ -29,7 +29,7 @@ namespace JohnVerbiest.Remarkable.Api.Tests.Core.ConfigurationTests
                 "https://my.remarkable.com/token/json/2/device/new";
 
             // Act
-            var actual = sut.TokenEndpoint;
+            var actual = sut.NewTokenEndpoint;
 
             // Assert
             actual.Should().Be(expected);
@@ -58,6 +58,20 @@ namespace JohnVerbiest.Remarkable.Api.Tests.Core.ConfigurationTests
 
             // Act
             var actual = sut.CodeGenerationUrl;
+
+            // Assert
+            actual.Should().Be(expected);
+        }
+
+        [Theory, UnitTest]
+        internal void Settings_OnRequestingRefreshTokenEndpoint_ShouldReturnPublishedUrl(Settings sut)
+        {
+            // Arrange
+            var expected =
+                "https://my.remarkable.com/token/json/2/user/new";
+
+            // Act
+            var actual = sut.RefreshTokenEndpoint;
 
             // Assert
             actual.Should().Be(expected);
