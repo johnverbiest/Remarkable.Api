@@ -20,5 +20,47 @@ namespace JohnVerbiest.Remarkable.Api.Tests.Core.ConfigurationTests
             // Assert
             actual.Should().Be(expected);
         }
+
+        [Theory, UnitTest]
+        internal void Settings_OnRequestingTokenEndpoint_ShouldReturnPublishedUrl(Settings sut)
+        {
+            // Arrange
+            var expected =
+                "https://my.remarkable.com/token/json/2/device/new";
+
+            // Act
+            var actual = sut.TokenEndpoint;
+
+            // Assert
+            actual.Should().Be(expected);
+        }
+
+        [Theory, UnitTest]
+        internal void Settings_OnRequestingDeviceDesc_ShouldReturnPublished(Settings sut)
+        {
+            // Arrange
+            var expected =
+                "desktop-windows";
+
+            // Act
+            var actual = sut.DeviceDesc;
+
+            // Assert
+            actual.Should().Be(expected);
+        }
+
+        [Theory, UnitTest]
+        internal void Settings_OnRequestingCodeGenerationUrl_ShouldReturnPublishedUrl(Settings sut)
+        {
+            // Arrange
+            var expected =
+                "https://my.remarkable.com/generator-device";
+
+            // Act
+            var actual = sut.CodeGenerationUrl;
+
+            // Assert
+            actual.Should().Be(expected);
+        }
     }
 }
