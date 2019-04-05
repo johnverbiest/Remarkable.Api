@@ -7,7 +7,7 @@ Nuget package for communicating with the Remarkable Api. The api is undocumented
 
 | Develop | Master |
 |---------|--------|
-| ![Build Status](https://johnverbiest.visualstudio.com/Johnverbiest.Remarkable.Api/_apis/build/status/Johnverbiest.Remarkable.Api-CI?branchName=develop) | ![Build Status](https://johnverbiest.visualstudio.com/Johnverbiest.Remarkable.Api/_apis/build/status/Johnverbiest.Remarkable.Api-CI?branchName=master) |
+| [![Build Status Develop](https://johnverbiest.visualstudio.com/Johnverbiest.Remarkable.Api/_apis/build/status/Johnverbiest.Remarkable.Api-CI?branchName=develop)](https://johnverbiest.visualstudio.com/Johnverbiest.Remarkable.Api/_build/latest?definitionId=24&branchName=develop) | [![Build Status Master](https://johnverbiest.visualstudio.com/Johnverbiest.Remarkable.Api/_apis/build/status/Johnverbiest.Remarkable.Api-CI?branchName=master)](https://johnverbiest.visualstudio.com/Johnverbiest.Remarkable.Api/_build/latest?definitionId=24&branchName=master)
 
 
 ## Special thanks to

@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/johnverbiest/Remarkable.Api/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/johnverbiest/Remarkable.Api</PackageProjectUrl>
+    <PackageTags>Remarkable; Client</PackageTags>
+    <Description>Client for the Remarkable notepad API.</Description>
+    <RepositoryUrl>https://github.com/johnverbiest/Remarkable.Api</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
